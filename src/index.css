@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "swiper/swiper-bundle.min.css"; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid white; */
+}
+
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#root {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
+
+
+/*  */
+img {
+  -webkit-user-drag: none;
+  /* For Safari and Chrome */
+  user-drag: none;
+  /* Standard syntax */
+  pointer-events: none;
+  /* Prevents interaction with the image */
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover:opacity-80:hover {
+  opacity: 0.8;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* active */
+
+
+
+.nav-link.active {
+  color: red;
+
+}
