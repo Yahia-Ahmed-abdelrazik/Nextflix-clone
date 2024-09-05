@@ -25,8 +25,8 @@ This project is a movie application built with React and Vite. It features brows
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone <https://github.com/Yahia-Ahmed-abdelrazik/Nextflix-clone>
+   cd <Nextflix-clone>
    ```
 
 2. **Install Dependencies:**
