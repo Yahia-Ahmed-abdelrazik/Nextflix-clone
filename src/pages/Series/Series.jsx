@@ -18,7 +18,7 @@ function Series() {
     <div className="">
       <Navbar />
 
-      <div className="pt-[10%]">
+      <div className="pt-[20%] lg:pt-[10%]">
         <h2 className="text-2xl font-bold text-white p-4">Airing Today</h2>
         <MovieSlider
           movies={airingToday}

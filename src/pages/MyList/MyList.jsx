@@ -12,7 +12,7 @@ function MyList() {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto px-4 py-6 pt-[10%] select-none">
+      <div className="container mx-auto px-4 py-6 pt-[20%] lg:pt-[10%] select-none">
         <h2 className="text-3xl font-semibold text-white mb-6">
           Your Favorites
         </h2>
